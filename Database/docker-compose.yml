@@ -1,0 +1,13 @@
+version: "3.1"
+
+services:
+  db:
+    image: "postgres:11.5-alpine"
+    volumes:
+      - ./init-scripts/:/docker-entrypoint-initdb.d
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=sa
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_MULTIPLE_DATABASES=customer_db,product_db
