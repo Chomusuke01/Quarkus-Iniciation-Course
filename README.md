@@ -1,8 +1,8 @@
-# Project-Name
+# Quarkus-Iniciation-Course
 
 ## Description
 
-Material developed in the course ---.  The developed application consists of two microservices, Product and Client. 
+Material developed in the course **Quarkus desarrollo ágil de microservicios, GraphQL y GraalVM**. The developed application consists of two microservices, Product and Client. 
 The Client microservice is in charge of implementing the business logic necessary to manage users within our application as well as the products they manage. On the other hand, the information of each product managed by a user is located in the Product microservice. 
 
 Each microservice offers a series of endpoints to manage products and users through a REST API and a GraphQL API. 
